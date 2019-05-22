@@ -1,7 +1,6 @@
 import { css, keyframes } from "styled-components";
 import cols from "./colors";
-import TextLogo from "../img/hippo-text.svg";
-import WhiteLogo from "../img/hippo-text-white.svg";
+export { default as Logo } from "../img/logo.svg";
 
 // Fonts
 export const sourceSans = "'Source Sans Pro', sans-serif";
@@ -19,9 +18,6 @@ export const phoneMediaQuery = "max-width: 768px";
 export const tabletMediaQuery = "max-width: 957px";
 export const smallDesktopMediaQuery = "max-width: 1200px";
 export const desktopMediaQuery = "min-width: 1200px";
-
-export const Logo = TextLogo;
-export const LogoWhite = WhiteLogo;
 
 export const media = {
   phone: (...args) => css`

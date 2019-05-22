@@ -4,31 +4,17 @@ import PropTypes from "prop-types";
 import * as CustomIcons from "./";
 
 const CUSTOM_MAP = {
-  dish: CustomIcons.IconDish,
   clock: CustomIcons.IconClock,
   cog: CustomIcons.IconCog,
   edit: CustomIcons.IconEdit,
   home: CustomIcons.IconHome,
-  mixer: CustomIcons.IconMixer,
   message: CustomIcons.IconMessage,
   share: CustomIcons.IconShare,
   trash: CustomIcons.IconTrash,
   user: CustomIcons.IconUser,
-  american: CustomIcons.IconAmerican,
-  asian: CustomIcons.IconAsian,
-  italian: CustomIcons.IconItalian,
-  fruit: CustomIcons.IconFruit,
-  mexican: CustomIcons.IconMexican,
   list: CustomIcons.IconList,
   profile: CustomIcons.IconProfile,
   family: CustomIcons.IconFamily,
-  drink: CustomIcons.IconDrink,
-  cheese: CustomIcons.IconCheese,
-  main: CustomIcons.IconMain,
-  dessert: CustomIcons.IconDessert,
-  salad: CustomIcons.IconSalad,
-  breakfast: CustomIcons.IconBreakfast,
-  bread: CustomIcons.IconBread
 };
 
 const icons = {

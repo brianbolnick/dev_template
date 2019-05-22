@@ -3,12 +3,10 @@ import { storiesOf } from "@storybook/react";
 import styled from "styled-components";
 
 import {
-  IconDish,
   IconClock,
   IconCog,
   IconEdit,
   IconHome,
-  IconMixer,
   IconMessage,
   IconShare,
   IconTrash,
@@ -33,12 +31,10 @@ const Name = styled.div`
 `;
 
 const iconList = [
-  { name: "IconDish", icon: IconDish },
   { name: "IconClock", icon: IconClock },
   { name: "IconCog", icon: IconCog },
   { name: "IconEdit", icon: IconEdit },
   { name: "IconHome", icon: IconHome },
-  { name: "IconMixer", icon: IconMixer },
   { name: "IconMessage", icon: IconMessage },
   { name: "IconShare", icon: IconShare },
   { name: "IconTrash", icon: IconTrash },
